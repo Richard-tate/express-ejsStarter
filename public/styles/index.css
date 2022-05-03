@@ -27,6 +27,12 @@ body {
 body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #fff;
 }
 /*
     6. Improve media defaults
@@ -66,4 +72,11 @@ h6 {
 #root,
 #__next {
 	isolation: isolate;
+}
+
+.page_width.main {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px 20px;
 }
